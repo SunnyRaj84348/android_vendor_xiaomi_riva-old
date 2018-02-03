@@ -2636,7 +2636,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/riva/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/riva/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/riva/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/riva/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/riva/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/riva/proprietary/app/LenovoCamera/LenovoCamera.apk:system/app/LenovoCamera/LenovoCamera.apk \
+    vendor/xiaomi/riva/proprietary/app/Camera/Camera.apk:system/app/Camera/Camera.apk \
+    vendor/xiaomi/riva/proprietary/lib/lib3DJPG.so:system/lib/lib3DJPG.so \
+    vendor/xiaomi/riva/proprietary/lib/libLe3D.so:system/lib/libLe3D.so \
+    vendor/xiaomi/riva/proprietary/lib/libLeCSC.so:system//lib/libLeCSC.so \
+    vendor/xiaomi/riva/proprietary/lib/libLeCSCJni.so:system/lib/libLeCSCJni.so \
+    vendor/xiaomi/riva/proprietary/lib/libLeConvertDataToTexture.so:system/lib/libLeConvertDataToTexture.so \
+    vendor/xiaomi/riva/proprietary/lib/libLeImage.so:system/lib/libLeImage.so \
+    vendor/xiaomi/riva/proprietary/lib/libLeImageJni.so:system/lib/libLeImageJni.so \
+    vendor/xiaomi/riva/proprietary/lib/libati_framework_imagecodec_v2.0.2.so:system/lib/libati_framework_imagecodec_v2.0.2.so \
+    vendor/xiaomi/riva/proprietary/lib/libati_framework_v2.0.1.so:system/lib/libati_framework_v2.0.1.so \
+    vendor/xiaomi/riva/proprietary/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
+    vendor/xiaomi/riva/proprietary/lib/libjpeg-support.so:system/lib/libjpeg-support.so \
+    vendor/xiaomi/riva/proprietary/lib/liblocSDK5.so:system/lib/liblocSDK5.so \
+    vendor/xiaomi/riva/proprietary/lib/libmmtScore.so:system/lib/libmmtScore.so \
+    vendor/xiaomi/riva/proprietary/lib/libmtprocessor-jni.so:system/lib/libmtprocessor-jni.so \
+    vendor/xiaomi/riva/proprietary/lib/libopencv_java.so:system/lib/libopencv_java.so \
+    vendor/xiaomi/riva/proprietary/lib/libscg_expression_gesture_jni.so:system/lib/libscg_expression_gesture_jni.so \
+    vendor/xiaomi/riva/proprietary/lib/libscg_face_detect.so:system/lib/libscg_face_detect.so \
+    vendor/xiaomi/riva/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
