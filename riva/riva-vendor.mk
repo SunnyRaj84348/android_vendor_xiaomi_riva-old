@@ -2657,6 +2657,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/riva/proprietary/lib/libscg_expression_gesture_jni.so:system/lib/libscg_expression_gesture_jni.so \
     vendor/xiaomi/riva/proprietary/lib/libscg_face_detect.so:system/lib/libscg_face_detect.so \
     vendor/xiaomi/riva/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so \
+    vendor/xiaomi/riva/proprietary/bin/vm_bms:system/bin/vm_bms 
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
