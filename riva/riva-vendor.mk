@@ -2554,7 +2554,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     qcrilhook \
     qti-telephony-common \
-    QtiTelephonyServicelibrary
+    QtiTelephonyServicelibrary \
     vendor.qti.hardware.alarm-V1.0-java \
     qti-vzw-ims-internal \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
