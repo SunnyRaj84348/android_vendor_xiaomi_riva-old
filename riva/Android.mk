@@ -19,6 +19,18 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),riva)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ParanoidPapers
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/app/ParanoidPapers/ParanoidPapers.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_PATH := $(TARGET_OUT)/app
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libMpeg4SwEncoder
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libMpeg4SwEncoder.so
