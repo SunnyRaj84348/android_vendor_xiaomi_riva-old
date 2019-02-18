@@ -91,7 +91,7 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>dw9714_s5k3l8_riva</ActuatorName>
     <EepromName>s5k3l8_ofilm_riva</EepromName>
     <FlashName>gpio</FlashName>
-    <ChromatixName>s5k3l8_ofilm_riva_chromatix</ChromatixName>
+    <ChromatixName>s5k3l8_ofilm_riva_india_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -102,7 +102,7 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.78</FocalLength>
+      <FocalLength>3.79</FocalLength>
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>1.2</TotalFocusDistance>
       <HorizontalViewAngle>75.7</HorizontalViewAngle>
@@ -116,7 +116,7 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>fp5510e2_ov13855</ActuatorName>
     <EepromName>ov13855_qtech</EepromName>
     <FlashName>gpio</FlashName>
-    <ChromatixName>ov13855_qtech_chromatix</ChromatixName>
+    <ChromatixName>ov13855_qtech_india_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -127,7 +127,7 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.73</FocalLength>
+      <FocalLength>3.79</FocalLength>
       <FNumber>2.2</FNumber>
       <TotalFocusDistance>2.73</TotalFocusDistance>
       <HorizontalViewAngle>69.5</HorizontalViewAngle>
@@ -139,7 +139,7 @@ LensInfo : Information of the lens present in the module.
   <CameraId>2</CameraId>
   <SensorName>s5k5e8_ofilm_riva</SensorName>
   <EepromName>s5k5e8_ofilm_riva</EepromName>
-  <ChromatixName>s5k5e8_ofilm_riva_chromatix</ChromatixName>
+  <ChromatixName>s5k5e8_ofilm_riva_india_chromatix</ChromatixName>
   <ModesSupported>1</ModesSupported>
   <Position>FRONT</Position>
   <MountAngle>270</MountAngle>
@@ -158,11 +158,12 @@ LensInfo : Information of the lens present in the module.
     <MinFocusDistance>0.1</MinFocusDistance>
   </LensInfo>
 </CameraModuleConfig>
+
 <CameraModuleConfig>
   <CameraId>2</CameraId>
   <SensorName>s5k5e8_qtech_riva</SensorName>
   <EepromName>s5k5e8_qtech_riva</EepromName>
-  <ChromatixName>s5k5e8_qtech_riva_chromatix</ChromatixName>
+  <ChromatixName>s5k5e8_qtech_riva_india_chromatix</ChromatixName>
   <ModesSupported>1</ModesSupported>
   <Position>FRONT</Position>
   <MountAngle>270</MountAngle>
@@ -173,7 +174,7 @@ LensInfo : Information of the lens present in the module.
     <ComboMode>0</ComboMode>
   </CSIInfo>
   <LensInfo>
-    <FocalLength>2.46</FocalLength>
+    <FocalLength>2.63</FocalLength>
     <FNumber>2.0</FNumber>
     <TotalFocusDistance>1.1</TotalFocusDistance>
     <HorizontalViewAngle>72.4</HorizontalViewAngle>
